@@ -1,0 +1,4 @@
+rootProject.name='FastBus'
+include ':app'
+include ':lib'
+include ':processor'

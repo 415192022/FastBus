@@ -1,0 +1,13 @@
+apply plugin: 'java-library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.415192022'
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    api "io.reactivex.rxjava2:rxjava:2.1.11"
+    api "io.reactivex.rxjava2:rxandroid:2.0.1"
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"

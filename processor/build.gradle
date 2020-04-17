@@ -1,0 +1,15 @@
+apply plugin: 'java-library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.415192022'
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation project(':lib')
+    implementation "com.squareup:javapoet:1.9.0"
+    implementation "com.google.auto.service:auto-service:1.0-rc4"
+    annotationProcessor "com.google.auto.service:auto-service:1.0-rc4"
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
