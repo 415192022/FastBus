@@ -23,9 +23,9 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     ......
     // FastBus 依赖
-    implementation 'com.github.415192022:FastBus:v0.0.1'
-    annotationProcessor 'com.github.415192022.FastBus:processor:v0.0.1'
-    kapt 'com.github.415192022.FastBus:processor:v0.0.1'
+    implementation 'com.github.415192022:FastBus:v0.1.0'
+    annotationProcessor 'com.github.415192022.FastBus:processor:v0.1.0'
+    kapt 'com.github.415192022.FastBus:processor:v0.1.0'
 }
 ```
 ### Step 3
